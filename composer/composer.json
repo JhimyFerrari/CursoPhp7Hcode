@@ -1,0 +1,21 @@
+{
+    "name": "jhimyferrari/composer",
+    "description": "aula de php com composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jhimyferrari\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jhimy Ferrari",
+            "email": "Souzaferrarik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": { 
+        
+       "monolog/monolog":"1.0.*"
+    }
+}

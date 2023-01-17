@@ -1,0 +1,17 @@
+git init : cria a estrutura de um repositório git na maquina local
+
+git add : comando Git usado para adicionar arquivos ao “staging area” (como uma sala de espera)
+
+git commit -m "mensagem" : comando Git que cria uma mensagem de confirmação para uma alteração
+
+git remote add origin    :Comando que usamos para adicionar o endereço de origem de um repositório remoto ao nosso projeto local
+
+git push : comando que usamos para atualizar o nosso repositório remoto com as mudanças locais
+
+Precisamos criar um repositório local, adicionar um arquivo nele e atualizar esse arquivo em nosso repositório remoto. Qual série de comandos atenderia essa necessidade?
+
+git init   **cria a estrutura git
+git remote add origin https://endereço  **adiciona o endereço de origem de um repositorio remoto
+git add --all **adiciona tudo
+git commit -m "mensagem" ** confirma a alteração com uma mensagem
+git push origin master ** atualiza o repositório com as mudanças locais
